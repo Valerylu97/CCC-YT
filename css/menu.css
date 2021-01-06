@@ -1,0 +1,82 @@
+/*--------------------------------------------------------------
+HEADER
+--------------------------------------------------------------*/
+#header {
+    padding: 30px 0;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+
+#header #logo{
+    float: left;
+}
+
+#header #logo img {
+    padding: 0;
+    margin-left: 30px;
+    background-color: rgba(78, 78, 78, 0.5);
+    border-left: 4px solid #df203a;
+}
+
+#nav-menu-container {
+    margin-right: 120;
+    font-family: "Montserrat", sans-serif; 
+    float: right;
+    size: 30%;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav-menu a{
+	padding: 0 8px 10px 8px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.nav-menu li a{
+    color: #fff;
+    background-color:  rgba(78, 78, 78, 0.5);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.nav-menu li a:hover{
+    color: #df203a;
+}
+.nav-menu li:hover > a,
+.nav-menu > .menu-active > a{
+	color: #df203a;
+}
+.nav-menu > li{
+    float: left;
+}
+
+.nav-menu li ul {
+    display: none;
+    position: relative;
+    text-transform: uppercase;
+    bottom: 0px;
+}
+
+.nav-menu li:hover > ul {
+    display: block;
+}
+
+.nav-menu li ul li {
+    position: none;
+}
+
+.nav-menu li ul li ul {
+    right: -96px;
+    top: -40px;
+}

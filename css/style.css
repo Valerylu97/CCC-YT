@@ -1,0 +1,349 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+    background:#fff;
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    color: #df203a;
+    transition: 0.5s;
+}
+
+p {
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+/*--------------------------------------------------------------
+INTRO
+--------------------------------------------------------------*/
+.mySlides {
+    display: none; /*ocultar toda la clase*/
+  }
+  
+  /*all relacionado with images slide*/
+  .slideshow-container img {
+    width: 150%; /*horizontal*/
+    vertical-align: middle;
+    height: 100vh;/*vertical*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 101%;
+    margin: -8px;
+  }
+  
+  .slideshow-container ol li {
+    list-style: none;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 120%;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #df203a;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.4s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a grey background color */
+  .prev:hover, .next:hover {
+    background-color: transparent;
+    color: white;
+  }
+  
+  /* Caption text */
+  .text {
+    top: 45%;
+    left: 35%;
+    color: #df203a;
+    font-size: 80px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    background-color: transparent;
+  }
+  
+  /* The dots/bullets/indicators */
+  .pagination {
+    position: absolute;
+    top: 93%;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination li {
+    margin-left: 5px;
+  }
+  
+  /*circle or square (height, width and border-radios 
+  podemos armar la figura q deseemos)*/
+  .dot {
+    cursor: pointer;
+    height: 7px;
+    width: 40px;
+    margin: 0 2px;
+    background-color: #df203a;
+    border-radius: 30%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171; /*#717171 (gris chevere)*/
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 700px){
+    header{
+        padding: 20px 40px;
+    }
+  
+    .slideshow-container img {
+      height: 60vh;/*vertical*/
+    }
+  
+    /* Next & previous buttons */
+    .prev, .next {
+      top: 40%;
+      font-size: 40px;
+    }
+  
+    /* Caption text */
+    .text {
+      top: 38%;
+      left: 15%;
+      font-size: 40px;
+    }
+  
+    /* The dots/bullets/indicators */
+    .pagination {
+      left: 35%;
+    }
+  
+    .dot {
+      height: 15px;
+      width: 15px;
+    }
+  
+  }
+
+/*--------------------------------------------------------------
+ABOUT
+--------------------------------------------------------------*/
+
+.text-body{
+  max-width: 120%;
+  background-color: #ffff;
+}
+
+#about{
+  width: 120%; /*horizontal*/
+  vertical-align: middle;
+  height: auto;/*vertical*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 101%;
+  margin-left: -8px;
+  margin-top: 8px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.title-about{
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 10px;
+  letter-spacing: .2rem;
+  border-bottom: #df203a solid 2px;
+  width: 810px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.title-about span{
+  color: #df203a;
+}
+
+.objetive-about{
+  padding: 20px 20px; /*10px*/
+  height: auto; /*300px Should be removed. Only for demonstration */
+  background-color: #df20393b;
+}
+
+.objetive-about h2{
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 8px;
+  letter-spacing: .1rem;  
+  color: #000; 
+  text-align: center;
+}
+
+.objetive-about p{
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #df203a;
+  text-transform:inherit;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#about .btn-leer-mas{
+  font-family: "Monserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #df203a;
+  align-content: center;
+}
+
+/*--------------------------------------------------------------
+Cursos
+--------------------------------------------------------------*/
+.curso {
+  padding: 15px 40px; /*(arriba, a los lados)*/
+  align-content: center;
+  text-align: center;
+  background-color: #ddd;
+  background-size: 500px;
+  height: 120vh;
+}
+
+.column-3 {
+  float: left;
+  width: 30%;
+  padding: 20px 10px; /*10px*/
+  height: 300px; /*300px Should be removed. Only for demonstration */
+  border-radius: 5%;
+  border: #ee5555 solid 2px;
+}
+
+.title-curso{
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+  letter-spacing: .2rem;
+  /*lenea de abajo*/
+  border-bottom: #ee5555 solid 2px;
+  width: 510px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.title-curso span{
+  color: #ee5555;
+}
+
+.curso p{
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-top: 10px;
+  padding: 0 100px;
+  margin-bottom: 15px;
+}
+
+/*Effects in the images*/
+.container-fade {
+  position: relative;
+  height: auto;
+  /*width: 50%;*/
+}
+
+.image-fade {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/*ocultar el text y moverlo*/
+.middle-fade{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-fade:hover .image-fade {
+  opacity: 0.3;
+}
+
+.container-fade:hover .middle-fade {
+  opacity: 1;
+}
+
+.text-fade a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  background-color: #ee5555;
+  border-radius: 10%;
+  background-size: fixed;
+}

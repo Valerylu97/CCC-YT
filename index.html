@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> CCC-YT </title>
+
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/menu.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+        <link href="img/logo.png" rel="icon">
+
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header id="header">
+            <div>
+                <div id="logo" class="pull-left">
+                    <a href="index.html"><img src="img/PORTADA.png" height="100"/></a>
+                </div>
+            
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li class="menu-active"> <a href="index.html"> home </a> </li>
+                        <li> <a href="#about"> about us </a> </li>
+                        <li> <a href="#"> People </a>
+                            <ul> 
+                                <li> <a href="#"> Directiva </a></li>
+                                <li> <a href="#"> Profesores </a></li>
+                                <li> <a href="#"> Miembros </a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="#"> Services </a>
+                            <ul> 
+                                <li> <a href="#"> Courses </a> </li>
+                                <li> <a href="#"> Proyects </a></li>
+                                <li> <a href="#"> Events </a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="#"> contact </a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+
+        <!--Start slideshow section-->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="img/carousel/1.jpg">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="img/carousel/2.jpg">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="img/carousel/3.jpg">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <ol class="pagination">
+                <li><span class="dot" onclick="currentSlide(1)"></span></li>
+                <li><span class="dot" onclick="currentSlide(2)"></span></li>
+                <li><span class="dot" onclick="currentSlide(3)"></span></li>
+            </ol>
+            
+        </div>
+
+        <!--text body-->
+        <div class="text-body">
+            <!--Start about us Section-->
+            <div id="about">
+                <h2 class="title-about">Acerca de <span> Nosotros </span></h2>
+                <div class="objetive-about">
+                    <h2> <b>Objetivo General</b></h2>
+                    <p>
+                        Se denomina efecto invernadero al fenómeno por el cual determinados gases, que son componentes de la atmósfera
+                        planetaria, retienen parte de la energía que el suelo emite por haber sido calentado por la radiación solar. 
+                        Afecta a todos los cuerpos planetarios dotados de atmósfera. De acuerdo con la mayoría de la comunidad científica, 
+                        el efecto invernadero se está viendo acentuado en la Tierra por la emisión de ciertos gases, como el dióxido de 
+                        carbono y el metano, debido a la actividad humana.
+                    </p>
+                </div>
+                <a class="btn-leer-mas"> Leer más... </a>
+            </div>   
+            <!--End about us section-->
+
+            <!--Start curso section-->
+            <div class="curso">
+                <h2 class="title-curso">Cursos <span>CCC-YT</span></h2>
+                <p>El Club de ciencias computacionales ofrece algunos cursos
+                    a todos sus miembros. Los cursos son dictados por profesores
+                    y estudiante que ayudan al desarrollo del club. Acontinuación
+                    se dan a conocer algunos de ellos.
+                </p>
+                <div class="containter">
+                    <div class="row">
+                        <div class="column-3 container-fade">                        
+                            <img src="img/cursos/bots.png" class="image-fade"> 
+                            <div class="middle-fade">
+                                <div class="text-fade">
+                                    <a href="#">Programación de Bots</a>
+                                </div>
+                            </div>                                               
+                        </div>
+    
+                        <div class="column-3 container-fade">                        
+                            <img src="img/cursos/dataScience.png" class="image-fade">
+                            <div class="middle-fade">
+                                <div class="text-fade">
+                                    <a href="#">Ciencia de Datos</a>
+                                </div>
+                            </div>                                                    
+                        </div>
+    
+                        <div class="column-3 container-fade">                        
+                            <img src="img/cursos/tux.png" class="image-fade"> 
+                            <div class="middle-fade">
+                                <div class="text-fade">
+                                    <a href="#"> Software Libre</a>
+                                </div>
+                            </div>                                              
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="column-3 container-fade">                        
+                            <img src="img/cursos/webProgramming.webp" class="image-fade"> 
+                            <div class="middle-fade">
+                                <div class="text-fade">
+                                    <a href="#">Programación Web</a>
+                                </div>
+                            </div>                      
+                        </div>
+    
+                        <div class="column-3 container-fade">                        
+                            <img src="img/cursos/latex.png" class="image-fade"> 
+                            <div class="middle-fade">
+                                <div class="text-fade">
+                                    <a href="#">Latex</a>
+                                </div>
+                            </div>                                                     
+                        </div>
+    
+                        <div class="column-3 container-fade">                        
+                            <img src="img/cursos/machineLearning.png" class="image-fade">
+                            <div class="middle-fade">
+                                <div class="text-fade">
+                                    <a href="#">Aprendizaje Automático</a>
+                                </div>
+                            </div>                                                     
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!--End curso section-->   
+        </div>
+
+        <footer>
+            <h3>&copy; Copyright <span>CCC-YT</span>. All Rights Reserved</h3>
+            <p>Designed by Alejandra Valeria Lucero Burbano & Stalyn Javier Chancay Moreira.</p>
+        </footer>
+
+        <!-- js files-->
+        <script src="js/main.js"></script>
+        <script src="js/menu.js"></script>
+    </body>
+</html>

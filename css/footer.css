@@ -1,0 +1,20 @@
+footer{
+    width: 100%;
+    height: auto;
+    align-content: center;
+    text-align: center;
+    background-color: #1d1d1d;
+}
+footer h3{
+    padding-top: 20px;
+    color: white;
+}
+
+footer h3 span{
+    color: #ee5555;
+}
+
+footer p{
+    padding-bottom: 15px;
+    color: white;
+}
