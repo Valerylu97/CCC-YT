@@ -200,7 +200,7 @@ General text body
   margin-bottom: 10px;
   letter-spacing: .2rem;
   /*lenea de abajo*/
-  border-bottom: #ee5555 solid 2px;
+  border-bottom: #df203a solid 2px;
   width: 810px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -208,7 +208,7 @@ General text body
 
 /*color para la primera columna*/
 .co{
-  background-color: #ee5555;
+  background-color: #df203a;
   color: blanchedalmond;
 }
 
@@ -222,14 +222,14 @@ General text body
 /* Create two equal columns that floats next to each other */
 .column-2 {
   float: left;
-  width: 50%;
+  width: 40%;
   padding: 20px 10px; /*10px*/
   height: auto; /*300px Should be removed. Only for demonstration */
   border-radius: 5%;
 }
 
 .title-about span{
-  color: #ee5555;
+  color: #df203a;
 }
 
 #about .column-2 h2{
@@ -244,13 +244,8 @@ General text body
   font-weight: 200;
 }
 
-#about .column-2 video{
-  border-radius: 0 30% 0% 30%;
-}
-
 .vid{
   margin-top: -18px;
-  max-width: 10%;
   height: auto;
 }
 
