@@ -1,10 +1,13 @@
 footer{
     width: 100%;
-    height: auto;
+    height: 15vh;
     align-content: center;
     text-align: center;
     background-color: #1d1d1d;
     padding-bottom: 0px;
+    margin-bottom: -7px;
+    margin-left: -8px;
+    margin-right: 8px;
 }
 
 footer h3{
