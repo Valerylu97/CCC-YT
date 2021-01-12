@@ -4,7 +4,9 @@ footer{
     align-content: center;
     text-align: center;
     background-color: #1d1d1d;
+    padding-bottom: 0px;
 }
+
 footer h3{
     padding-top: 20px;
     color: white;

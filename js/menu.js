@@ -1,6 +1,6 @@
-const menu_icon = document.querySelector('#header .menu-icon');
-const mobile_menu_icon = document.querySelector('#header ul');
-const header = document.querySelector('#header')
+const menu_icon = document.querySelector('header .menu-icon');
+const mobile_menu_icon = document.querySelector('header ul');
+const header = document.querySelector('header')
 const submenu = document.querySelector('.submenu')
 
 /*habilitar y deabilitar las barritas del menu (arriba y abajo)*/
