@@ -184,6 +184,9 @@ General text body
   background-color: #ffff;
 }
 
+/*--------------------------------------------------------------
+ABOUT SECTION
+--------------------------------------------------------------*/
 /*Start about us section*/
 .about {
   padding: 30px 15px;
@@ -265,94 +268,132 @@ General text body
 }
 
 /*--------------------------------------------------------------
-Cursos
+SERVICES SECTION
 --------------------------------------------------------------*/
-.curso {
+#services{
+  width: 100%;
   padding: 15px 40px; /*(arriba, a los lados)*/
   align-content: center;
   text-align: center;
   background-color: #ddd;
-  background-size: 500px;
-  height: 120vh;
+  height: 100vh;
+  max-width: 95.7%;
+  margin-left: -8px;
+  vertical-align: middle;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.column-3 {
+#services a{
+  text-decoration: none;
+}
+
+#services::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 9;
+}
+
+#services .container {
+  position: relative;
+  z-index: 10;
+}
+#services .about-col {
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 10px;
+  margin-left: 40px;
+  height: 70vh;
+}
+
+#services .about-col .img {
+  position: relative;
+}
+
+#services .about-col .img img {
+  border-radius: 4px 4px 0 0;
+  height: 244px;
+}
+
+#services .about-col .icon img {
+  width: 65px;
+  height: 65px;
+  padding-top: auto;
+  text-align: center;
+  position: absolute;
+  background-color: #df203a;
+  border-radius: 50%;
+  text-align: center;
+  border: 4px solid #ffff;
+  left: calc(50% - 32px);
+  bottom: -30px;
+  transition: 0.3s;
+}
+
+#services .about-col .icon img img{
+  position: absolute;
+}
+
+#services .about-col:hover .icon {
+  background-color: #fff;
+}
+
+#services .about-col:hover i {
+  color: #df203a;
+}
+
+#services .about-col h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+  margin: 40px 0 12px 0;
+}
+
+#services .about-col h2 a {
+  color: #000;
+}
+
+#services .about-col h2 a:hover {
+  color: #df203a;
+}
+
+#services .about-col p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 0;
+  padding: 0 20px 20px 20px;
+}
+
+#services .title-about span{
+  color: #df203a;
+}
+
+#services .col-md-4{
   float: left;
   width: 30%;
-  padding: 20px 10px; /*10px*/
+  padding:20px 15px; /*10px*/
   height: 300px; /*300px Should be removed. Only for demonstration */
-  border-radius: 5%;
-  border: #ee5555 solid 2px;
 }
 
-.title-curso{
-  text-transform: uppercase;
-  font-size: 3.5rem;
-  font-weight: 300;
-  color: black;
-  margin-bottom: 10px;
-  letter-spacing: .2rem;
-  /*lenea de abajo*/
-  border-bottom: #ee5555 solid 2px;
-  width: 510px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
-
-.title-curso span{
-  color: #ee5555;
-}
-
-.curso p{
-  font-size: 1.5rem;
-  font-weight: 200;
-  margin-top: 10px;
-  padding: 0 100px;
-  margin-bottom: 15px;
-}
-
-/*Effects in the images*/
-.container-fade {
-  position: relative;
-  height: auto;
-  /*width: 50%;*/
-}
-
-.image-fade {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: 300px;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-/*ocultar el text y moverlo*/
-.middle-fade{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.container-fade:hover .image-fade {
-  opacity: 0.3;
-}
-
-.container-fade:hover .middle-fade {
-  opacity: 1;
-}
-
-.text-fade a{
-  text-decoration: none;
-  color: white;
+#services .btn-leer-mas{
+  font-family: "Monserrat", sans-serif;
+  font-weight: 500;
   font-size: 16px;
-  padding: 16px 32px;
-  background-color: #ee5555;
-  border-radius: 10%;
-  background-size: fixed;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #df203a;
+  margin-left: 700px;
 }
