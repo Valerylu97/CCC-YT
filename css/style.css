@@ -249,7 +249,7 @@ SERVICES SECTION
   align-content: center;
   text-align: center;
   background-color: #ddd;
-  height: 100vh;
+  height: 90vh;
   max-width: 95.7%;
   margin-left: -8px;
   vertical-align: middle;
@@ -284,7 +284,7 @@ SERVICES SECTION
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 10px;
   margin-left: 40px;
-  height: 81vh;
+  height: 70vh;
   margin-top: -20px;
 }
 
@@ -294,7 +294,6 @@ SERVICES SECTION
 
 #services .service-col .img img {
   border-radius: 4px 4px 0 0;
-  height: 307px;
 }
 
 #services .service-col .icon img {
