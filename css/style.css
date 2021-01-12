@@ -249,7 +249,7 @@ General text body
   height: auto;
 }
 
-#about .btn-leer-mas{
+.about .btn-leer-mas{
   font-family: "Monserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -261,7 +261,7 @@ General text body
   margin: 10px;
   color: #fff;
   background: #df203a;
-  margin-left: 700px;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
