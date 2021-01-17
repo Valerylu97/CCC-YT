@@ -1,9 +1,11 @@
+
 <html>
     <head>
         <meta charset="UTF-8">
         <title> CCC-YT </title>
 
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/general.css" rel="stylesheet">
         <link href="css/menu.css" rel="stylesheet">
         <link href="css/footer.css" rel="stylesheet">
         <link href="img/logo.png" rel="icon">
@@ -19,28 +21,27 @@
             
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
-                        <li class="menu-active"> <a href="index.html"> home </a> </li>
-                        <li> <a href="#about"> about us </a> </li>
-                        <li> <a href="#"> People </a>
+                        <li class="menu-active"> <a href="index.html"> Inicio </a> </li>
+                        <li> <a href="#about"> Nosotros </a> </li>
+                        <li> <a href="#"> Personas </a>
                             <ul> 
                                 <li> <a href="#"> Directiva </a></li>
                                 <li> <a href="#"> Profesores </a></li>
                                 <li> <a href="#"> Miembros </a></li>
                             </ul>
                         </li>
-                        <li> <a href="#"> Services </a>
+                        <li> <a href="#services"> Servicios </a>
                             <ul> 
-                                <li> <a href="#"> Courses </a> </li>
-                                <li> <a href="#"> Proyects </a></li>
-                                <li> <a href="#"> Events </a></li>
+                                <li> <a href="html/cursos.html"> Cursos </a> </li>
+                                <li> <a href="#"> Proyectos </a></li>
+                                <li> <a href="#"> Eventos </a></li>
                             </ul>
                         </li>
-                        <li> <a href="#"> contact </a> </li>
+                        <li> <a href="#"> Contacto </a> </li>
                     </ul>
                 </nav>
             </div>
         </header>
-    
 
         <!--Start slideshow section-->
         <div class="slideshow-container">
@@ -73,92 +74,88 @@
 
         <!--text body-->
         <div class="text-body">
+            
             <!--Start about us Section-->
             <div id="about">
-                <h2 class="title-about">Acerca de <span> Nosotros </span></h2>
-                <div class="objetive-about">
-                    <h2> <b>Objetivo General</b></h2>
-                    <p>
-                        Se denomina efecto invernadero al fenómeno por el cual determinados gases, que son componentes de la atmósfera
-                        planetaria, retienen parte de la energía que el suelo emite por haber sido calentado por la radiación solar. 
-                        Afecta a todos los cuerpos planetarios dotados de atmósfera. De acuerdo con la mayoría de la comunidad científica, 
-                        el efecto invernadero se está viendo acentuado en la Tierra por la emisión de ciertos gases, como el dióxido de 
-                        carbono y el metano, debido a la actividad humana.
-                    </p>
+                <h2 class="title-about">Acerca de <span>Nosotros</span></h2>
+                <div class="row">
+                    <div class="column-2 co">
+                        <h2> <b>Objetivo General</b></h2>
+                        <p>
+                            El Club de Ciencias Computacionales es un club de estudiantes, 
+                            asesorado por un docente de Yachay Tech, designado por los miembros del club 
+                            y apoyados por la Coordinación de Bienestar Estudiantil. Realiza actividades de 
+                            investigación y experimentación con el propósito de despertar interés por la tecnología 
+                            y las Ciencias Computacionales.
+                        </p>
+                    </div>
+
+                    <div class="column-2 vid">
+                        <video muted autoplay loop width="800px" style= "border-radius: 0 30% 0% 30%" src="./img/Hello_world.mp4#t=0,10" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
-                <a class="btn-leer-mas"> Leer más... </a>
-            </div>   
+                <a class="btn-leer-mas" href="./html/about_us.html"> Leer más... </a>
+            </div>        
             <!--End about us section-->
 
-            <!--Start curso section-->
-            <div class="curso">
-                <h2 class="title-curso">Cursos <span>CCC-YT</span></h2>
-                <p>El Club de ciencias computacionales ofrece algunos cursos
-                    a todos sus miembros. Los cursos son dictados por profesores
-                    y estudiante que ayudan al desarrollo del club. Acontinuación
-                    se dan a conocer algunos de ellos.
-                </p>
-                <div class="containter">
-                    <div class="row">
-                        <div class="column-3 container-fade">                        
-                            <img src="img/cursos/bots.png" class="image-fade"> 
-                            <div class="middle-fade">
-                                <div class="text-fade">
-                                    <a href="#">Programación de Bots</a>
-                                </div>
-                            </div>                                               
-                        </div>
-    
-                        <div class="column-3 container-fade">                        
-                            <img src="img/cursos/dataScience.png" class="image-fade">
-                            <div class="middle-fade">
-                                <div class="text-fade">
-                                    <a href="#">Ciencia de Datos</a>
-                                </div>
-                            </div>                                                    
-                        </div>
-    
-                        <div class="column-3 container-fade">                        
-                            <img src="img/cursos/tux.png" class="image-fade"> 
-                            <div class="middle-fade">
-                                <div class="text-fade">
-                                    <a href="#"> Software Libre</a>
-                                </div>
-                            </div>                                              
-                        </div>
+            <!--Start services section-->
+            <div id="services">
+                <div class="container">
+                    <div class="title-services">
+                        <h2> Servicios </h2>
                     </div>
-    
-                    <div class="row">
-                        <div class="column-3 container-fade">                        
-                            <img src="img/cursos/webProgramming.webp" class="image-fade"> 
-                            <div class="middle-fade">
-                                <div class="text-fade">
-                                    <a href="#">Programación Web</a>
-                                </div>
-                            </div>                      
+        
+                    <div class="container-cols">
+                        <div class="col-md-4"> 
+                            <div class="service-col">
+                                <div class="img">
+                                    <img src="img/cursos/cursos.jpg" height="200px" width="391px"class="image-fluid">
+                                    <div class="icon"><img src="img/servicios/cursos.png"></div>
+                                </div>      
+                                <h2 class="title"><a href="#">Cursos</a></h2>
+                                <p>El Club de ciencias computacionales ofrece algunos cursos
+                                    para beneficio de todos los miembros. Los cursos son dictados tanto por profesores
+                                    y estudiantes de la Universidad Yachay Tech. Acontinuación algunos de ellos.
+                                </p>
+                                <a class="btn-ver-mas" href="./html/cursos.html"> Ver más </a>
+                            </div>                                        
                         </div>
-    
-                        <div class="column-3 container-fade">                        
-                            <img src="img/cursos/latex.png" class="image-fade"> 
-                            <div class="middle-fade">
-                                <div class="text-fade">
-                                    <a href="#">Latex</a>
-                                </div>
-                            </div>                                                     
+        
+                        <div class="col-md-4"> 
+                            <div class="service-col">
+                                <div class="img">
+                                    <img src="img/cursos/proyectos.jpg" height="200px" width="391px" class="image-fluid">
+                                    <div class="icon"><img src="img/servicios/proyectos.jpg"></div>
+                                </div>      
+                                <h2 class="title"><a href="#">Proyectos</a></h2>
+                                <p>
+                                    El Club de Ciencias Computacionales está trabajando en varios
+                                    proyectos para beneficio de miembros y estuiantes de la Universidad
+                                    Yachay Tech. Los proyectos están coordinados por profesores y estudiantes.
+                                </p>
+                                <a class="btn-ver-mas" href=""> Ver más </a>
+                            </div>                                        
                         </div>
-    
-                        <div class="column-3 container-fade">                        
-                            <img src="img/cursos/machineLearning.png" class="image-fade">
-                            <div class="middle-fade">
-                                <div class="text-fade">
-                                    <a href="#">Aprendizaje Automático</a>
-                                </div>
-                            </div>                                                     
+        
+                        <div class="col-md-4"> 
+                            <div class="service-col">
+                                <div class="img">
+                                    <img src="img/cursos/eventos.jpg" height="200px" width="391px" class="image-fluid">
+                                    <div class="icon"><img src="img/servicios/eventos.jpg"></div>
+                                </div>      
+                                <h2 class="title"><a href="#">Eventos</a></h2>
+                                <p>
+                                    El Club de Ciencias Computacionales está trabajando en varios
+                                    eventos en los que podrán participar todos los miembros y estudiantes
+                                    de la Universidad Yachay Tech. Los eventos están coordinados por profesores y estudiantes.
+                                </p>
+                                <a class="btn-ver-mas" href=""> Ver más </a>
+                            </div>                                        
                         </div>
                     </div>
                 </div>
-            </div> 
-            <!--End curso section-->   
+            </div>
         </div>
 
         <footer>

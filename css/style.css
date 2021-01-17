@@ -1,73 +1,46 @@
 /*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
-body {
-    background:#fff;
-    color: #666666;
-    font-family: "Open Sans", sans-serif;
-}
-
-a {
-    color: #df203a;
-    transition: 0.5s;
-}
-
-p {
-    padding: 0;
-    margin: 0 0 30px 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    margin: 0 0 20px 0;
-    padding: 0;
-}
-
-/*--------------------------------------------------------------
 INTRO
 --------------------------------------------------------------*/
 .mySlides {
-    display: none; /*ocultar toda la clase*/
-  }
+  display: none; /*ocultar toda la clase*/
+}
   
-  /*all relacionado with images slide*/
-  .slideshow-container img {
-    width: 150%; /*horizontal*/
-    vertical-align: middle;
-    height: 100vh;/*vertical*/
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-width: 101%;
-    margin: -8px;
-  }
+/*all relacionado with images slide*/
+.slideshow-container img {
+  width: 150%; /*horizontal*/
+  vertical-align: middle;
+  height: 100vh;/*vertical*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 101%;
+  margin: -8px;
+}
   
-  .slideshow-container ol li {
-    list-style: none;
-  }
+.slideshow-container ol li {
+  list-style: none;
+}
   
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 120%;
-  }
+/* Slideshow container */
+.slideshow-container {
+  max-width: 120%;
+}
   
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 45%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: #df203a;
-    font-weight: bold;
-    font-size: 50px;
-    transition: 0.4s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #df203a;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.4s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
   
   /* Position the "next button" to the right */
   .next {
@@ -97,7 +70,7 @@ INTRO
   .pagination {
     position: absolute;
     top: 93%;
-    left: 45%;
+    left: 42%;
     display: flex;
     justify-content: center;
   }
@@ -175,9 +148,8 @@ INTRO
     }
   
   }
-
 /*--------------------------------------------------------------
-ABOUT
+General text body
 --------------------------------------------------------------*/
 
 .text-body{
@@ -185,59 +157,72 @@ ABOUT
   background-color: #ffff;
 }
 
-#about{
-  width: 120%; /*horizontal*/
-  vertical-align: middle;
-  height: auto;/*vertical*/
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-width: 101%;
-  margin-left: -8px;
-  margin-top: 8px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+/*--------------------------------------------------------------
+ABOUT SECTION
+--------------------------------------------------------------*/
+/*Start about us section*/
+#about {
+  padding: 30px 15px;
+  align-content: center;
+  text-align: center;
 }
 
+/*text config*/
 .title-about{
   text-transform: uppercase;
   font-size: 3.5rem;
   font-weight: 300;
-  color: #000;
+  color: black;
   margin-bottom: 10px;
   letter-spacing: .2rem;
+  /*lenea de abajo*/
   border-bottom: #df203a solid 2px;
   width: 810px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
+/*color para la primera columna*/
+.co{
+  background-color: #df203a;
+  color: blanchedalmond;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-2 {
+  float: left;
+  width: 40%;
+  padding: 20px 10px; /*10px*/
+  height: auto; /*300px Should be removed. Only for demonstration */
+  border-radius: 5%;
+}
+
 .title-about span{
   color: #df203a;
 }
 
-.objetive-about{
-  padding: 20px 20px; /*10px*/
-  height: auto; /*300px Should be removed. Only for demonstration */
-  background-color: #df20393b;
-}
-
-.objetive-about h2{
-  text-transform: uppercase;
+#about .column-2 h2{
   font-size: 2rem;
   font-weight: 200;
   margin-bottom: 8px;
-  letter-spacing: .1rem;  
-  color: #000; 
-  text-align: center;
+  letter-spacing: .1rem;    
 }
 
-.objetive-about p{
+#about .column-2 p{
   font-size: 1.2rem;
   font-weight: 200;
-  color: #df203a;
-  text-transform:inherit;
-  text-align: center;
-  letter-spacing: 2px;
+}
+
+.vid{
+  margin-top: -18px;
+  height: auto;
 }
 
 #about .btn-leer-mas{
@@ -252,98 +237,140 @@ ABOUT
   margin: 10px;
   color: #fff;
   background: #df203a;
-  align-content: center;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
-Cursos
+SERVICES SECTION
 --------------------------------------------------------------*/
-.curso {
+#services{
+  width: 100%;
   padding: 15px 40px; /*(arriba, a los lados)*/
   align-content: center;
   text-align: center;
   background-color: #ddd;
-  background-size: 500px;
-  height: 120vh;
+  height: 90vh;
+  max-width: 95.7%;
+  margin-left: -8px;
+  vertical-align: middle;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.column-3 {
-  float: left;
-  width: 30%;
-  padding: 20px 10px; /*10px*/
-  height: 300px; /*300px Should be removed. Only for demonstration */
-  border-radius: 5%;
-  border: #ee5555 solid 2px;
-}
-
-.title-curso{
+.title-services{
   text-transform: uppercase;
   font-size: 3.5rem;
   font-weight: 300;
   color: black;
   margin-bottom: 10px;
   letter-spacing: .2rem;
-  /*lenea de abajo*/
-  border-bottom: #ee5555 solid 2px;
-  width: 510px;
+  /*linea de abajo*/
+  border-bottom: #df203a solid 2px;
+  width: 810px;
   margin: 0 auto;
   margin-bottom: 20px;
-}
+} 
 
-.title-curso span{
-  color: #ee5555;
-}
-
-.curso p{
-  font-size: 1.5rem;
-  font-weight: 200;
-  margin-top: 10px;
-  padding: 0 100px;
-  margin-bottom: 15px;
-}
-
-/*Effects in the images*/
-.container-fade {
-  position: relative;
-  height: auto;
-  /*width: 50%;*/
-}
-
-.image-fade {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: 300px;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-/*ocultar el text y moverlo*/
-.middle-fade{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.container-fade:hover .image-fade {
-  opacity: 0.3;
-}
-
-.container-fade:hover .middle-fade {
-  opacity: 1;
-}
-
-.text-fade a{
+#services a{
   text-decoration: none;
-  color: white;
+}
+
+#services .container {
+  position: relative;
+  z-index: 10;
+}
+#services .service-col {
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 10px;
+  margin-left: 40px;
+  height: 70vh;
+  margin-top: -20px;
+}
+
+#services .service-col .img {
+  position: relative;
+}
+
+#services .service-col .img img {
+  border-radius: 4px 4px 0 0;
+}
+
+#services .service-col .icon img {
+  width: 65px;
+  height: 65px;
+  padding-top: auto;
+  text-align: center;
+  position: absolute;
+  background-color: #df203a;
+  border-radius: 50%;
+  text-align: center;
+  border: 4px solid #ffff;
+  left: calc(50% - 32px);
+  bottom: -30px;
+  transition: 0.3s;
+}
+
+#services .service-col .icon img img{
+  position: absolute;
+}
+
+#services .service-col:hover .icon {
+  background-color: #fff;
+}
+
+#services .service-col-col:hover i {
+  color: #df203a;
+}
+
+#services .service-col h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+  margin: 40px 0 12px 0;
+}
+
+#services .service-col h2 a {
+  color: #000;
+}
+
+#services .service-col h2 a:hover {
+  color: #df203a;
+}
+
+#services .service-col p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 0;
+  padding: 0 20px 20px 20px;
+}
+
+#services .title-services span{
+  color: #df203a;
+}
+
+#services .col-md-4{
+  float: left;
+  width: 30%;
+  padding:20px 15px; /*10px*/
+  height: 300px; /*300px Should be removed. Only for demonstration */
+}
+
+.service-col .btn-ver-mas{
+  font-family: "Monserrat", sans-serif;
+  font-weight: 500;
   font-size: 16px;
-  padding: 16px 32px;
-  background-color: #ee5555;
-  border-radius: 10%;
-  background-size: fixed;
+  letter-spacing: 1px;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #df203a;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
 }
