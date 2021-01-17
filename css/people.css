@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    border: 1px solid #df203a;
+    margin: 20px;
+}
+
+.title-dir{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 10px;
+    letter-spacing: .2rem;
+    border-bottom: #df203a solid 2px;
+    width: 620px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+  
+.title-dir span{
+    color: #df203a;
+}
+
+.sub-title{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #000;
+    letter-spacing: .2rem;
+}
+
+.sub-title span{
+    color: #df203a;
+    font-size: 3rem;
+}
+
+.img-box{
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*-------------------------*/
+/*start adviser section*/
+/*-------------------------*/
+.adv-box{
+    align-items: center;
+    align-content: center;
+    margin-top: 5px;
+    padding: 10px 30px; /*Todo lo de a dentro*/
+    border-radius: 2%;
+}
+
+.column-2 {
+    float: left;
+    width: 50%;
+    padding: 20px; /*10px*/
+    padding-right: 80px;
+    height: auto; /*300px Should be removed. Only for demonstration */
+    /*border-radius: 5%;*/
+}
+.adv-img img{
+    width: 100%;
+    height: 100%;
+    left: 40%;
+}
+
+.adv-img {
+    left: 40%;
+	height: 50%;
+	width: 60%;
+    position: relative;
+    margin: 20px;
+    padding: 0;
+	border: 10px solid white; 
+}
+
+.adv-img::after {
+	content: '';
+	position: absolute;
+	left: -10%;
+	top: 6%;
+	height: 100%;
+	width: 98%;
+	border: 7px solid #df203a;
+	z-index: -1;
+}
+
+.adv-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #000;
+    letter-spacing: .2rem;
+    padding-bottom: 10px;
+}
+
+.adv-title span{
+    color: #df203a;
+}
+
+.adv-box p{
+    text-align: justify;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #000;
+    
+}
+
+/*boton*/
+.btn {
+    border: 3px solid #df203a;
+    border-radius: 3px;
+    text-decoration: none;
+	color: #000;
+	margin-bottom: 30px;
+	padding: 7px 10px;
+	font-size: 2rem;
+}
+
+.btn:hover{
+    color: #f1f1f1;
+    background-color: #df203a;
+}
+
+/*-------------------------*/
+/*end adviser section*/
+/*-------------------------*/
+
+/*-------------------------*/
+/*start directiva section*/
+/*-------------------------*/
+.dir-box{
+    background-color: #ddd;
+    align-items: center;
+    align-content: center;
+    margin: 10px; /*Todo lo de a fuera*/
+    padding: 10px 30px; /*Todo lo de a dentro*/
+    border-radius: 2%;
+}
+
+.presi{
+    left: 43%;
+    position: relative;
+    padding-top: 20px ;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 11.5%;
+}
+
+.presi h2{
+    color: #df203a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 30px;
+    margin-bottom: 3px;
+}
+
+.presi img{
+    
+    align-content: center;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: #df203a solid 3px;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    /*background: rgb(0, 0, 0);*/
+    background: rgba(0, 0, 0, 0.1); /* Black see-through */
+    color: #f1f1f1;
+    width: auto;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20%;
+    left: 10%;
+    border-radius: 0 0 5rem 5rem;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.presi:hover .overlay {
+    opacity: 1;
+}
+
+.presi p{
+    padding-left: 40px;
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.column-3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px 15px; 
+    height: auto; /*300px Should be removed. Only for demonstration */
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.column-3 h2{
+    color: #df203a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    left: .2rem;
+    margin-bottom: 2px;
+}
+
+.column-3 img{
+    height: 180px;
+    width: 180px;
+    align-content: center;
+    border-radius: 50% 50%;
+    border: #df203a solid 3px;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.column-3:hover .overlay {
+    opacity: 1;
+}
+
+.column-3 .overlay {
+    position: absolute;
+    bottom: 0;
+    /*background: rgb(0, 0, 0);*/
+    background: rgba(0, 0, 0, 0.1); /* Black see-through */
+    color: #f1f1f1;
+    width: auto;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+    left: 32%;
+    border-radius: 0 0 5rem 5rem;
+}
+
+.column-3 p{
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+/*-----------------------*/
+/*End directiva section*/
+/*-----------------------*/
