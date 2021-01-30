@@ -5,7 +5,7 @@ footer{
     text-align: center;
     background-color: #1d1d1d;
     padding-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 0%;
     margin-bottom: -7px;
     margin-left: -8px;
     margin-right: 8px;
@@ -20,7 +20,7 @@ footer h3{
 }
 
 footer h3 span{
-    color: #ee5555;
+    color: #df203a;
 }
 
 footer p{

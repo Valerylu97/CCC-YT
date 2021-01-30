@@ -1,28 +1,38 @@
 /*--------------------------------------------------------------
 Cursos
 --------------------------------------------------------------*/
+#banner{
+  margin-top: -60px;
+  margin-left: -409px
+}
+
 .curso {
-  width: 100%;
-  padding: 15px 40px; /*(arriba, a los lados)*/
+  width: 100.4%;
   align-content: center;
   text-align: center;
   background-color: #ddd;
-  height: 130vh;
-  max-width: 95.7%;
-  margin-top: -10px;
+  height: 135%;
+  max-height: 135%;
+  max-width: 101%;
   margin-left: -8px;
+  margin-top: -70px;
+  padding-right: 10px;
   vertical-align: middle;
   background-size: cover;
   background-repeat: no-repeat;
 }
-  
+
 .column-3 {
   float: left;
   width: 30%;
-  padding: 20px 10px; /*10px*/
-  height: 300px; /*300px Should be removed. Only for demonstration */
+  max-width: 100%;
+  margin-left: 7%;
+  margin-right: -7%;
+  margin-top: 0.5%;
+  padding-top: 30px;
+  height: 100%; /*300px Should be removed. Only for demonstration */
   border-radius: 5%;
-  border: #ee5555 solid 2px;
+  border: #df203a solid 2px;
 }
   
 .title-curso{
@@ -33,7 +43,7 @@ Cursos
   margin-bottom: 10px;
   letter-spacing: .2rem;
   /*lienea de abajo*/
-  border-bottom: #ee5555 solid 2px;
+  border-bottom: #df203a solid 2px;
   width: 510px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -41,7 +51,7 @@ Cursos
 }
   
 .title-curso span{
-  color: #ee5555;
+  color: #df203a;
 }
   
 .curso p{
@@ -93,7 +103,7 @@ Cursos
   color: white;
   font-size: 13px;
   padding: 16px 32px;
-  background-color: #ee5555;
+  background-color: #df203a;
   border-radius: 10%;
   background-size: fixed;
 }

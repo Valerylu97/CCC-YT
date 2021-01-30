@@ -125,19 +125,21 @@ hr{
 }
 
 /*boton*/
+/*boton*/
 .btn {
-    border: 3px solid #df203a;
-    border-radius: 3px;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-left: 30%;
+    color: #fff;
+    background: #df203a;
     text-decoration: none;
-	color: #000;
-	margin-bottom: 30px;
-	padding: 7px 10px;
-	font-size: 2rem;
-}
-
-.btn:hover{
-    color: #f1f1f1;
-    background-color: #df203a;
+    text-align: center;
+    display: inline-block;
 }
 
 /*-------------------------*/

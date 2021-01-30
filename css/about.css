@@ -1,6 +1,22 @@
 /*--------------------------------------------------------------
 ABOUT
 --------------------------------------------------------------*/
+#banner{
+    margin-top: -60px;
+    margin-left: -409px
+}
+
+#banner::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.415);
+    z-index: 9;
+}
+
 #about{
     width: 120%; /*horizontal*/
     vertical-align: middle;
@@ -11,7 +27,6 @@ ABOUT
     max-width: 101%;
     margin-left: -8px;
     margin-top: -8px;
-    padding-top: 120px;
     position: relative;
     text-align: center;
 }
@@ -87,14 +102,6 @@ ABOUT
     font-size: 20px;
     padding: 0;
     margin: 40px 0 12px 0;
-}
-  
-#about .about-col h2 a {
-    color: #000;
-}
-  
-#about .about-col h2 a:hover {
-    color: #df203a;
 }
   
 #about .about-col p {

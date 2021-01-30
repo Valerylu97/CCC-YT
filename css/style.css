@@ -244,12 +244,12 @@ ABOUT SECTION
 SERVICES SECTION
 --------------------------------------------------------------*/
 #services{
-  width: 100%;
+  width: 300%;
   padding: 15px 40px; /*(arriba, a los lados)*/
   align-content: center;
   text-align: center;
   background-color: #ddd;
-  height: 90vh;
+  height: 90%;
   max-width: 95.7%;
   margin-left: -8px;
   vertical-align: middle;
@@ -269,23 +269,28 @@ SERVICES SECTION
   width: 810px;
   margin: 0 auto;
   margin-bottom: 20px;
-} 
+}
+
+#services .title-services span{
+  color: #df203a;
+}
 
 #services a{
   text-decoration: none;
 }
 
 #services .container {
-  position: relative;
+  position: absolute;
   z-index: 10;
 }
+
 #services .service-col {
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 10px;
-  margin-left: 40px;
   height: 70vh;
   margin-top: -20px;
+  margin-right: 10px;
 }
 
 #services .service-col .img {
@@ -348,18 +353,19 @@ SERVICES SECTION
   padding: 0 20px 20px 20px;
 }
 
-#services .title-services span{
-  color: #df203a;
+
+
+#services .col-md-3{
+  float: right;
+  width: 26%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 65px;  /*65px*/
+  /*padding: 10px 60px; /*10px*/
+  height: 50%; /*300px Should be removed. Only for demonstration */
 }
 
-#services .col-md-4{
-  float: left;
-  width: 30%;
-  padding:20px 15px; /*10px*/
-  height: 300px; /*300px Should be removed. Only for demonstration */
-}
-
-.service-col .btn-ver-mas{
+#services .btn-ver-mas{
   font-family: "Monserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
