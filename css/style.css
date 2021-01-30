@@ -115,39 +115,34 @@ INTRO
   }
   
   /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 700px){
-    header{
-        padding: 20px 40px;
-    }
-  
-    .slideshow-container img {
-      height: 60vh;/*vertical*/
-    }
-  
-    /* Next & previous buttons */
-    .prev, .next {
-      top: 40%;
-      font-size: 40px;
-    }
-  
-    /* Caption text */
-    .text {
-      top: 38%;
-      left: 15%;
-      font-size: 40px;
-    }
-  
-    /* The dots/bullets/indicators */
-    .pagination {
-      left: 35%;
-    }
-  
-    .dot {
-      height: 15px;
-      width: 15px;
-    }
-  
+@media only screen and (max-width: 700px){ 
+  .slideshow-container img {
+    height: 60vh;/*vertical*/
   }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    top: 40%;
+    font-size: 40px;
+  }
+  
+  /* Caption text */
+  .text {
+    top: 38%;
+    left: 15%;
+    font-size: 40px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .pagination {
+    left: 35%;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+  }  
+}
 /*--------------------------------------------------------------
 General text body
 --------------------------------------------------------------*/
@@ -379,4 +374,19 @@ SERVICES SECTION
   text-decoration: none;
   text-align: center;
   display: inline-block;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  header, footer {
+    width: 80%;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  header, footer {
+    width: 100%;
+  }
 }

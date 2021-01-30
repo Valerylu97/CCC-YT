@@ -1,0 +1,134 @@
+#banner{
+    margin-top: -60px;
+    margin-left: -409px
+}
+
+.projects {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    background-color: #fff;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: -8px;
+    margin-top: -70px;
+    padding-right: 10px;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-title{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    letter-spacing: .2rem;
+    /*lienea de abajo*/
+    border-bottom: #df203a solid 2px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+    
+.project-title span{
+    color: #df203a;
+}
+
+.description{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-right: 50%;
+    padding: 0 100px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.sub-title{
+    padding-top: 1%;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #000;
+    letter-spacing: .2rem;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.sub-title span{
+    color: #df203a;
+    font-size: 3rem;
+}
+
+.container{
+    align-items: center;
+    align-content: center;
+    margin-top: 5px-;
+    padding: 10px 30px; /*Todo lo de a dentro*/
+    border-radius: 2%;
+    height: 70%;
+}
+
+.column-2 {
+    float: left;
+    width: 40%;
+    padding-top: -10%;
+    padding-right: 80px;
+    height: auto; /*300px Should be removed. Only for demonstration */
+    /*border-radius: 5%;*/
+}
+
+.workshop-img img{
+    width: 130%;
+    height: 125%;
+    left: 10%;
+}
+
+.workshop-img {
+    left: 15%;
+	height: 50%;
+	width: 60%;
+    position: relative;
+    margin: 30px;
+}
+
+.workshop-img::after {
+	content: '';
+	position: absolute;
+	left: -5%;
+	top: 2%;
+	height: 125%;
+	width: 129%;
+	border: 7px solid #df203a;
+	z-index: -1;
+}
+
+.project-description{
+    padding-top: 10%;
+    text-align: justify;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #000;    
+}
+
+/*boton*/
+.btn {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-left: 30%;
+    color: #fff;
+    background: #df203a;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
