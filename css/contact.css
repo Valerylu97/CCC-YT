@@ -2,6 +2,8 @@
     padding: 30px 15px;
     align-content: center;
     text-align: center;
+    height: 90%;
+    padding-bottom: 0;
 }
 
 /* Clear floats after the columns */
@@ -20,6 +22,11 @@
     padding-right: 70px;
     height: 80%; /*300px Should be removed. Only for demonstration */
     /*border-radius: 5%;*/
+}
+
+.column-2.iconos, .column-2.texto{
+    padding: 10px;
+    height: 50%;
 }
 
 .img-contact{
@@ -84,7 +91,6 @@ input{
 }
 
 h3{
-    padding-bottom: 10px;
     text-transform: uppercase;
     font-size: 1.5rem;
     font-weight: 300;
@@ -104,7 +110,7 @@ h3{
 .column-4 {
     float: left;
     width: 18%;
-    padding: 4px; /*10px*/
+    padding: 7px; /*10px*/
     height: 100px; /*300px Should be removed. Only for demonstration */
     /*border-radius: 5%;*/
 }
