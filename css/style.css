@@ -346,6 +346,127 @@ SERVICES SECTION
 CONTACT SECTION
 --------------------------------------------------------------*/
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Start contact div*/
+
+.column-2 {
+  float: left;
+  width: 40%;
+  padding: 10px; /*10px*/
+  padding-right: 70px;
+  height: 80%; /*300px Should be removed. Only for demonstration */
+  /*border-radius: 5%;*/
+}
+
+.column-2.iconos, .column-2.texto{
+  padding: 10px;
+  height: 50%;
+}
+
+.img-contact{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 5%;
+}
+
+.subtitle-cont{
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: white;
+  letter-spacing: .2rem;
+}
+
+.p-cont{
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: white;
+  letter-spacing: .1rem;
+}
+
+input{
+  position: relative;
+  left: 10%;
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  height: 5%;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+}
+
+.btn{
+  position: absolute;
+  right: 13%;
+  margin: 10px;
+  padding: 10px;
+  width: 8%;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.btn:hover{
+  background-color: #aaa; /*#fc4b08*/
+  color: black;
+  border: 2px solid white;
+}
+
+h3{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: .2rem;
+  color: white;
+  text-align: center;
+}
+
+.row p{
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: .1rem;
+  text-align: right;
+  color: white;
+}
+
+.column-4 {
+  float: left;
+  width: 18%;
+  padding: 7px; /*10px*/
+  height: 100px; /*300px Should be removed. Only for demonstration */
+  /*border-radius: 5%;*/
+}
+
+.icon{
+  width: 45px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: #aaa;
+  margin-bottom: 10px;
+}
+
+.icon:hover{
+  border: 2px solid #aaa;
+}
 @media only screen and (max-width:800px) {
   /* For tablets: */
   header, footer {
