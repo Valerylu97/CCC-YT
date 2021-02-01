@@ -152,35 +152,37 @@ General text body
   background-color: #ffff;
 }
 
+/*text config*/
+.title{
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: black;
+  letter-spacing: .2rem;
+  /*linea de abajo*/
+  margin-bottom: 20px;
+}
+
+.title span{
+  color: #df203a;
+  font-size: 3.5rem;
+}
+
+.section {
+  padding: 30px 15px;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 98%;
+}
+
 /*--------------------------------------------------------------
 ABOUT SECTION
 --------------------------------------------------------------*/
 /*Start about us section*/
-#about {
-  padding: 30px 15px;
-  align-content: center;
-  text-align: center;
-}
-
-/*text config*/
-.title-about{
-  text-transform: uppercase;
-  font-size: 3.5rem;
-  font-weight: 300;
-  color: black;
-  margin-bottom: 10px;
-  letter-spacing: .2rem;
-  /*lenea de abajo*/
-  border-bottom: #df203a solid 2px;
-  width: 810px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
-
-/*color para la primera columna*/
-.co{
-  background-color: #df203a;
-  color: blanchedalmond;
+.row{
+  position: relative;
+  width: 98%;
 }
 
 /* Clear floats after the columns */
@@ -191,33 +193,37 @@ ABOUT SECTION
 }
 
 /* Create two equal columns that floats next to each other */
-.column-2 {
+#about .column-2 {
   float: left;
-  width: 40%;
-  padding: 20px 10px; /*10px*/
+  width: 39%;
   height: auto; /*300px Should be removed. Only for demonstration */
-  border-radius: 5%;
-}
-
-.title-about span{
-  color: #df203a;
 }
 
 #about .column-2 h2{
   font-size: 2rem;
   font-weight: 200;
   margin-bottom: 8px;
-  letter-spacing: .1rem;    
+  letter-spacing: .1rem;  
 }
 
-#about .column-2 p{
+#about .column-2 p {
   font-size: 1.2rem;
   font-weight: 200;
+  text-align: justify;
 }
 
-.vid{
+/*color para la primera columna*/
+.column-2.co{
+  background-color: #df203a;
+  color: blanchedalmond;
+  margin-left: 8%;
+  padding: 20px;
+}
+
+.column-2.vid{
   margin-top: -18px;
   height: auto;
+  padding: 20px;
 }
 
 #about .btn-leer-mas{
@@ -239,44 +245,12 @@ ABOUT SECTION
 SERVICES SECTION
 --------------------------------------------------------------*/
 #services{
-  width: 300%;
-  padding: 15px 40px; /*(arriba, a los lados)*/
-  align-content: center;
-  text-align: center;
   background-color: #ddd;
   height: 90%;
-  max-width: 95.7%;
-  margin-left: -8px;
-  vertical-align: middle;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.title-services{
-  text-transform: uppercase;
-  font-size: 3.5rem;
-  font-weight: 300;
-  color: black;
-  margin-bottom: 10px;
-  letter-spacing: .2rem;
-  /*linea de abajo*/
-  border-bottom: #df203a solid 2px;
-  width: 810px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
-
-#services .title-services span{
-  color: #df203a;
 }
 
 #services a{
   text-decoration: none;
-}
-
-#services .container {
-  position: absolute;
-  z-index: 10;
 }
 
 #services .service-col {
@@ -296,7 +270,7 @@ SERVICES SECTION
   border-radius: 4px 4px 0 0;
 }
 
-#services .service-col .icon img {
+#services .service-col .icono img {
   width: 65px;
   height: 65px;
   padding-top: auto;
@@ -305,18 +279,13 @@ SERVICES SECTION
   background-color: #df203a;
   border-radius: 50%;
   text-align: center;
-  border: 4px solid #ffff;
   left: calc(50% - 32px);
   bottom: -30px;
   transition: 0.3s;
 }
 
-#services .service-col .icon img img{
+#services .service-col .icono img img{
   position: absolute;
-}
-
-#services .service-col:hover .icon {
-  background-color: #fff;
 }
 
 #services .service-col-col:hover i {
@@ -348,15 +317,12 @@ SERVICES SECTION
   padding: 0 20px 20px 20px;
 }
 
-
-
 #services .col-md-3{
   float: right;
   width: 26%;
   padding-top: 20px;
   padding-left: 10px;
-  padding-right: 65px;  /*65px*/
-  /*padding: 10px 60px; /*10px*/
+  padding-right: 80px; 
   height: 50%; /*300px Should be removed. Only for demonstration */
 }
 
@@ -375,6 +341,10 @@ SERVICES SECTION
   text-align: center;
   display: inline-block;
 }
+
+/*--------------------------------------------------------------
+CONTACT SECTION
+--------------------------------------------------------------*/
 
 @media only screen and (max-width:800px) {
   /* For tablets: */

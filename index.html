@@ -9,9 +9,11 @@
         <link href="css/general.css" rel="stylesheet">
         <link href="css/menu.css" rel="stylesheet">
         <link href="css/footer.css" rel="stylesheet">
+        <link href="css/contact.css" rel="stylesheet">
         <link href="img/logo.png" rel="icon">
 
     </head>
+
     <body>
         <!-- HEADER -->
         <header>
@@ -20,7 +22,7 @@
 
             </div>
             
-            <div id="logo" class="pull-left">
+            <div id="logo">
                 <a href="index.html"><img src="img/PORTADA.png" height="100"/></a>
             </div>
             
@@ -75,92 +77,138 @@
             </ol>
             
         </div>
+         
+        <!--Start about us Section-->
+        <div id="about" class="section">
+            <h2 class="title">Acerca de <span>Nosotros</span></h2>
+            <div class="row">
+                <div class="column-2 co">
+                    <h2> <b>Objetivo General</b></h2>
+                    <p>
+                        El Club de Ciencias Computacionales es un club de estudiantes, 
+                        asesorado por un docente de Yachay Tech, designado por los miembros del club 
+                        y apoyados por la Coordinación de Bienestar Estudiantil. Realiza actividades de 
+                        investigación y experimentación con el propósito de despertar interés por la tecnología 
+                        y las Ciencias Computacionales.
+                    </p>
+                </div>
+                <div class="column-2 vid">
+                    <video muted autoplay loop width="550px" style= "border-radius: 0 30% 0% 30%" src="./img/Hello_world.mp4#t=0,10" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <a class="btn-leer-mas" href="./html/about_us.html"> Leer más... </a>
+        </div>        
+        <!--End about us section-->
 
-        <!--text body-->
-        <div class="text-body">
-            
-            <!--Start about us Section-->
-            <div id="about">
-                <h2 class="title-about">Acerca de <span>Nosotros</span></h2>
-                <div class="row">
-                    <div class="column-2 co">
-                        <h2> <b>Objetivo General</b></h2>
-                        <p>
-                            El Club de Ciencias Computacionales es un club de estudiantes, 
-                            asesorado por un docente de Yachay Tech, designado por los miembros del club 
-                            y apoyados por la Coordinación de Bienestar Estudiantil. Realiza actividades de 
-                            investigación y experimentación con el propósito de despertar interés por la tecnología 
-                            y las Ciencias Computacionales.
-                        </p>
+        <!--Start services section-->
+        <div id="services" class="section">
+            <div class="container">
+                <h2 class="title"> <span>S</span>ervicios </h2>
+        
+                <div class="container-cols">
+                    <div class="col-md-3"> 
+                        <div class="service-col">
+                            <div class="img">
+                                <img src="img/cursos/cursos.jpg" height="200px" width="376px"class="image-fluid">
+                                <div class="icono"><img src="img/servicios/cursos.png"></div>
+                            </div>      
+                            <h2 class="title"><a href="./html/cursos.html">Cursos</a></h2>
+                            <p>El Club de ciencias computacionales ofrece algunos cursos
+                                para beneficio de todos los miembros. Los cursos son dictados tanto por profesores
+                                y estudiantes de la Universidad Yachay Tech. Acontinuación algunos de ellos.
+                            </p>
+                            <a class="btn-ver-mas" href="./html/cursos.html"> Ver más </a>
+                        </div>                                        
                     </div>
-
-                    <div class="column-2 vid">
-                        <video muted autoplay loop width="800px" style= "border-radius: 0 30% 0% 30%" src="./img/Hello_world.mp4#t=0,10" type="video/mp4">
-                        </video>
+        
+                    <div class="col-md-3"> 
+                        <div class="service-col">
+                            <div class="img">
+                                <img src="img/cursos/proyectos.jpg" height="200px" width="376px" class="image-fluid">
+                                <div class="icono"><img src="img/servicios/proyectos.jpg"></div>
+                            </div>      
+                            <h2 class="title"><a href="#">Proyectos</a></h2>
+                            <p>
+                                El Club de Ciencias Computacionales está trabajando en varios
+                                proyectos para beneficio de miembros y estuiantes de la Universidad
+                                Yachay Tech. Los proyectos están coordinados por profesores y estudiantes.
+                            </p>
+                            <a class="btn-ver-mas" href=""> Ver más </a>
+                        </div>                                        
+                    </div>
+        
+                    <div class="col-md-3"> 
+                        <div class="service-col">
+                            <div class="img">
+                                <img src="img/cursos/eventos.jpg" height="200px" width="376px" class="image-fluid">
+                                <div class="icono"><img src="img/servicios/eventos.jpg"></div>
+                            </div>      
+                            <h2 class="title"><a href="html/eventos.html">Eventos</a></h2>
+                            <p>
+                                El Club de Ciencias Computacionales está trabajando en varios
+                                eventos en los que podrán participar todos los miembros y estudiantes
+                                de la Universidad Yachay Tech. Los eventos están coordinados por profesores y estudiantes.
+                            </p>
+                            <a class="btn-ver-mas" href="html/eventos.html"> Ver más </a>
+                        </div>                                        
                     </div>
                 </div>
-                <a class="btn-leer-mas" href="./html/about_us.html"> Leer más... </a>
-            </div>        
-            <!--End about us section-->
+            </div>
+        </div>
 
-            <!--Start services section-->
-            <div id="services">
-                <div class="container">
-                    <div class="title-services">
-                        <h2> Servicios </h2>
-                    </div>
-        
-                    <div class="container-cols">
-                        <div class="col-md-3"> 
-                            <div class="service-col">
-                                <div class="img">
-                                    <img src="img/cursos/cursos.jpg" height="200px" width="376px"class="image-fluid">
-                                    <div class="icon"><img src="img/servicios/cursos.png"></div>
-                                </div>      
-                                <h2 class="title"><a href="./html/cursos.html">Cursos</a></h2>
-                                <p>El Club de ciencias computacionales ofrece algunos cursos
-                                    para beneficio de todos los miembros. Los cursos son dictados tanto por profesores
-                                    y estudiantes de la Universidad Yachay Tech. Acontinuación algunos de ellos.
-                                </p>
-                                <a class="btn-ver-mas" href="./html/cursos.html"> Ver más </a>
-                            </div>                                        
+        <!-- Start contact-->
+        <div class="contact">
+            <h2 class="title">Contacto <span>CCC-YT</span></h2> 
+            
+            <div class="row">
+                <div class="column-2" style="background-image: linear-gradient(to right,  #df203a, white);">
+                    <img src="img/logo.png" class="img-contact">
+                </div>
+
+                <div class="column-2" style="background-color: #df203a;">
+                    <h2 class="subtitle-cont">Registrate</h2>
+                    <p class="p-cont">Para conocer más de nuestros trabajos y de nosotros</p>
+                    <input type="email" value="Insertar Email">
+                    <button class="btn">Enviar</button>
+
+                    <div class="row">
+                        <div class="column-2">
+                            <h3>Localización</h3>
+                            <p>San Miguel de Urcuquí,</p>
+                            <p>Ibarra - Ecuador</p>
+                            <p>Universidad Yachay Tech</p>
                         </div>
-        
-                        <div class="col-md-3"> 
-                            <div class="service-col">
-                                <div class="img">
-                                    <img src="img/cursos/proyectos.jpg" height="200px" width="376px" class="image-fluid">
-                                    <div class="icon"><img src="img/servicios/proyectos.jpg"></div>
-                                </div>      
-                                <h2 class="title"><a href="#">Proyectos</a></h2>
-                                <p>
-                                    El Club de Ciencias Computacionales está trabajando en varios
-                                    proyectos para beneficio de miembros y estuiantes de la Universidad
-                                    Yachay Tech. Los proyectos están coordinados por profesores y estudiantes.
-                                </p>
-                                <a class="btn-ver-mas" href=""> Ver más </a>
-                            </div>                                        
-                        </div>
-        
-                        <div class="col-md-3"> 
-                            <div class="service-col">
-                                <div class="img">
-                                    <img src="img/cursos/eventos.jpg" height="200px" width="376px" class="image-fluid">
-                                    <div class="icon"><img src="img/servicios/eventos.jpg"></div>
-                                </div>      
-                                <h2 class="title"><a href="html/eventos.html">Eventos</a></h2>
-                                <p>
-                                    El Club de Ciencias Computacionales está trabajando en varios
-                                    eventos en los que podrán participar todos los miembros y estudiantes
-                                    de la Universidad Yachay Tech. Los eventos están coordinados por profesores y estudiantes.
-                                </p>
-                                <a class="btn-ver-mas" href="html/eventos.html"> Ver más </a>
-                            </div>                                        
+
+                        <div class="column-2" style="height: 50%;">
+                            <h3>Siguenos</h3>
+                            <div class="row-icons">
+                                <div class="column-4">
+                                    <a href="#"><img src="img/icons/gris-face.png" class="icon"></a>                                    
+                                </div>
+
+                                <div class="column-4">
+                                    <a href="#"><img src="img/icons/gris-instegram.png" class="icon"></a>                                    
+                                </div>
+
+                                <div class="column-4">
+                                    <a href="#"><img src="img/icons/gris-discord.png" class="icon"></a>
+                                </div>
+
+                                <div class="column-4">
+                                    <a href="#"><img src="img/icons/gris-email.png" class="icon"></a>                                    
+                                </div>
+                            </div>
+
+                            <p>
+                                Contactanos en cualquier momento.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- end Contact-->
 
         <footer>
             <h3>&copy; Copyright <span>CCC-YT</span>. All Rights Reserved</h3>

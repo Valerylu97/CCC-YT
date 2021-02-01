@@ -19,7 +19,6 @@ header {
 
 header #logo{
     float: left;
-    height: 100vh;
 }
 
 header #logo img {
