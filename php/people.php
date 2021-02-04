@@ -14,7 +14,7 @@
         <!-- HEADER -->
         <header id="header">
             <div>
-                <div id="logo" class="pull-left">
+                <div id="logo">
                     <a href="../index.html"><img src="../img/PORTADA.png" height="100"/></a>
                 </div>
             
@@ -45,11 +45,11 @@
         <div class="img-box">
             <img src="../img/headerImg/peopleHeader2.jpg">
         </div>
-        <!-- start text body-->
+
+        <!-- Start adviser -->
         <div class="text-body" id="adv">
             <h2 class="title-dir">Comunidad <span>CCC-YT</span></h2>
             
-            <!-- Start adviser -->
             <div class="adv-box">
                 <h3 class="sub-title"><span>C</span>onsejero</h3> 
                 
@@ -81,7 +81,9 @@
                 <hr>
 
             </div>
-            <!-- End adviser -->
+        </div>
+        <!-- End adviser -->
+
 
             <!--start directiva-->
             <div class="dir-box" id="dir">
@@ -174,9 +176,6 @@
             </div>
             <hr>
             <!--End members-->
-            
-        </div>
-        <!-- end text body-->
 
         <footer id="footer">
             <h3>&copy; Copyright <span>CCC-YT</span>. All Rights Reserved</h3>
