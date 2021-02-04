@@ -22,11 +22,11 @@
                     <ul class="nav-menu">
                         <li class="menu-active"> <a href="../index.html"> Inicio </a> </li>
                         <li> <a href="../index.html#about"> Nosotros </a> </li>
-                        <li> <a href="people.html"> Personas </a>
+                        <li> <a href="people.php"> Personas </a>
                             <ul> 
-                                <li> <a href="./people.html#adv"> Profesores </a></li>
-                                <li> <a href="./people.html#dir"> Directiva </a></li>
-                                <li> <a href="./people.html#mem"> Miembros </a></li>
+                                <li> <a href="./people.php#adv"> Consejero </a></li>
+                                <li> <a href="./people.php#dir"> Directiva </a></li>
+                                <li> <a href="./people.php#mem"> Miembros </a></li>
                             </ul>
                         </li>
                         <li> <a href="../index.html#services"> Servicios </a>
@@ -36,7 +36,7 @@
                                 <li> <a href="../html/eventos.html"> Eventos </a></li>
                             </ul>
                         </li>
-                        <li> <a href="./contact.html"> contacto </a> </li>
+                        <li> <a href="../index.html#contact"> contacto </a> </li>
                     </ul>
                 </nav>
             </div>
@@ -142,6 +142,38 @@
                 <hr>
             </div>
             <!-- end directiva-->
+
+            <!--start members-->
+            <div  class="adv-box" id="mem">
+                <h3 class="sub-title"><span>M</span>iembros</h3>
+                    <?php
+                        include 'connection.php';
+
+                        $ans = $conn->query("SELECT * FROM miembros"); //conjunto de filas
+
+                        $num = 1;
+                        
+                        echo "<table>";
+                        echo "<tr style=background-color:#df203a;color:white;>";
+                        echo "<td>Nª<td>Apellido<td>Nombre<td>Carrera";
+                        while($row = $ans->fetch_array()){
+                            if ($num % 2 == 0){
+                                echo "<tr style=background-color:grey;color:white;>";
+                                echo "<td>".$num.'<td>'.$row['apel'].'<td>'.$row['nomb'].'<td>'.$row['carrera'];
+                            }else{
+                                echo "<tr>";
+                                echo "<td>".$num.'<td>'.$row['apel'].'<td>'.$row['nomb'].'<td>'.$row['carrera'];
+                            }
+                            
+                            $num += 1;
+                        }
+                        echo "</table>";
+                        /*$row1 = $ans->fetch_array();
+                        echo $row1['apel'].' '.$row1['nomb'].' '.$row1['carrera'];*/
+                    ?>
+            </div>
+            <hr>
+            <!--End members-->
             
         </div>
         <!-- end text body-->

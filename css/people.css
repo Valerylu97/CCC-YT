@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+table{
+    margin: 0 auto;
+    border: none;
+}
+
+td{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    border: none;
+    padding: 2%;
+    width: 20%;
+}
+
 hr{
     border: 1px solid #df203a;
     margin: 20px;
