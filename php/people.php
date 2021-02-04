@@ -11,6 +11,10 @@
 
     </head>
     <body>
+        <div id="banner">
+            <img src="../img/about/Banner.jpg">
+        </div>
+
         <!-- HEADER -->
         <header id="header">
             <div>
@@ -42,10 +46,6 @@
                 </nav>
             </div>
         </header>
-
-        <div class="img-box">
-            <img src="../img/headerImg/peopleHeader2.jpg">
-        </div>
 
         <!-- Start adviser -->
         <div class="text-body" id="adv">
