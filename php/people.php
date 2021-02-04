@@ -32,8 +32,8 @@
                         <li> <a href="../index.html#services"> Servicios </a>
                             <ul> 
                                 <li> <a href="../html/eventos.html"> Eventos </a></li>
-                                <li> <a href="./html/proyectos.html"> Proyectos </a></li>
-                                <li> <a href="./html/cursos.html"> Cursos </a> </li>
+                                <li> <a href="../html/proyectos.html"> Proyectos </a></li>
+                                <li> <a href="../html/cursos.html"> Cursos </a> </li>
                                 
                             </ul>
                         </li>
