@@ -8,7 +8,8 @@ $header .= "Mime-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
 
 $message = "Su e-mail es: " . $mail . " \r\n";
-$message .= "Enviado el: " . date('d/m/Y', time());
+$message .= "Enviado el: " . date('d/m/Y', time()) . " \r\n";
+$message .= "https://docs.google.com/forms/d/1A8DlSj3EB5q2L_ZjNKz-UuA7aJYc3yMkO-9EvgFKZwQ/prefill";
 
 $para = $mail;
 $asunto = 'Mensaje de PRECOMPC';
