@@ -10,7 +10,7 @@ $header .= "Content-Type: text/plain";
 $message = "Su e-mail es: " . $mail . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
-$para = 'stalyn151996@gmail.com';
+$para = $mail;
 $asunto = 'Mensaje de PRECOMPC';
 
 mail($para, $asunto, utf8_decode($message), $header);
