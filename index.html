@@ -168,8 +168,10 @@
                 <div class="column-2" style="background-color: #df203a;">
                     <h2 class="subtitle-cont"> Registrate </h2>
                     <p class="p-cont">Si quieres formar parte del CCC-YT ingrese su email.</p>
-                    <input type="email" value="Insertar Email">
-                    <button class="btn">Enviar</button>
+                    <form action="php/enviar.php" method="POST">
+                        <input name="mail" type="email" value="Insertar Email">
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
 
                     <div class="row">
                         <div class="sub-column-2 texto">
