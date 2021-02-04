@@ -16,6 +16,5 @@ $asunto = 'Mensaje de PRECOMPC';
 
 mail($para, $asunto, utf8_decode($message), $header);
 echo "<script> alert('Por favor revisar su email')</script>";
-echo "<script> setTimeout(\"location.href='C:/Users/Legion/Desktop/CCC-YT/index.html'\", 1000)</script>";
-/*header("Location:../index.html#contact", 1000);*/
+echo "<script> setTimeout(\"location.href='../index.html'\", 1000)</script>";
 ?>
