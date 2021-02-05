@@ -12,7 +12,7 @@ Cursos
   left: 0;
   right: 0;
   top: 0;
-  bottom: 80%;
+  bottom: 79%;
   background: rgba(255, 255, 255, 0.415);
   z-index: 9;
 }
@@ -21,9 +21,9 @@ Cursos
   width: 100.4%;
   align-content: center;
   text-align: center;
-  background-color: #ddd;
+  background-color: #fff;
   height: 135%;
-  max-height: 135%;
+  max-height: max-content;
   max-width: 101%;
   margin-left: -8px;
   margin-top: -70px;
