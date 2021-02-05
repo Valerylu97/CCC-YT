@@ -116,15 +116,16 @@ ABOUT
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: 300;
-    color: #111111;
-    text-align: center;
+    color: black;
     margin-bottom: 10px;
     letter-spacing: .2rem;
+    /*lienea de abajo*/
     border-bottom: #df203a solid 2px;
-    width: 810px;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
-    position: relative;
+    padding-top: 20px;
+    text-align: center;
 }
   
 .title-about span{

@@ -50,7 +50,7 @@
         <div class="people">
             <!-- Start adviser -->                
             <div class="adv-box">
-                <h2 class="title-dir">Comunidad <span>CCC-YT</span></h2>
+                <h2 class="title-dir"> <span>C</span>omunidad <span>C</span>cc-yt </h2>
                 <h3 class="sub-title"><span>C</span>onsejero</h3> 
                     
                 <div class="row">
