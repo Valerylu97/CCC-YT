@@ -241,6 +241,12 @@ ABOUT SECTION
   text-decoration: none;
 }
 
+#about .btn-leer-mas:hover{
+  color: #fff;
+  background: #ff0000;
+  border: 2px solid #aaa;
+}
+
 /*--------------------------------------------------------------
 SERVICES SECTION
 --------------------------------------------------------------*/
@@ -340,6 +346,12 @@ SERVICES SECTION
   text-decoration: none;
   text-align: center;
   display: inline-block;
+}
+
+#services .btn-ver-mas:hover{
+  color: #fff;
+  background: #ff0000;
+  border: 2px solid #aaa;
 }
 
 /*--------------------------------------------------------------

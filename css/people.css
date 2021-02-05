@@ -150,6 +150,12 @@ hr{
     display: inline-block;
 }
 
+.btn:hover{
+    color: #fff;
+    background: #ff0000;
+    border: 2px solid #aaa;
+}
+
 /*-------------------------*/
 /*start directiva section*/
 /*-------------------------*/

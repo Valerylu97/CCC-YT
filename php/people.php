@@ -64,7 +64,8 @@
                         <h1 class="adv-title"><span>Phd. </span>Israel Pineda</h1>
                         <p class="adv-description">
                             Pertenece a la Escuela de Matemática y Ciencias Computacionales
-                            en la universidad Yachay Tech. Anteriormente, trabajaba en                                 gráficos por computadora y realidad virtual en el laboratorio 
+                            en la universidad Yachay Tech. Anteriormente, trabajaba en                                 
+                            gráficos por computadora y realidad virtual en el laboratorio 
                             de la universidad Nacional de Chonbuk en Corea del Sur. Su 
                             investigación se basó en el level set method y su uso en las
                             ciencias computacionales, gráficos por computadoras, simulación 
@@ -72,7 +73,7 @@
                             imagenes. Él ama las ciencias computacionales y la matemática.
                         </p>
                         <a href="https://www.israelpineda.com/about" class="btn" target="_blank">
-                            Leer mas ...</a>
+                            Leer mas</a>
                     </div>
                 </div>
             </div>
