@@ -14,7 +14,7 @@
     z-index: 9;
 }
 
-.web {
+.machine {
     width: 100%;
     align-content: center;
     text-align: center;
@@ -36,7 +36,7 @@
     height: max-content;
 }
 
-.title-web{
+.title-machine{
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: 300;
@@ -45,14 +45,14 @@
     letter-spacing: .2rem;
     /*lienea de abajo*/
     border-bottom: #df203a solid 2px;
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
     padding-top: 20px;
     text-align: center;
 }
     
-.title-web span{
+.title-machine span{
     color: #df203a;
     font-size: 3.5rem;
 }
@@ -76,19 +76,9 @@
     float: left;
     width: 42%;
     padding-top: -10%;
-    padding-left: 80px;
+    padding-left: 40px;
     height: auto; /*300px Should be removed. Only for demonstration */
     /*border-radius: 5%;*/
-}
-
-.column-4{
-    float: left;
-    width: 200%; 
-    height: auto; /*300px Should be removed. Only for demonstration */
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
 }
 
 .prof-box{
@@ -101,7 +91,7 @@
 
 .column-3 {
     float: left;
-    width: 25%; 
+    width: 100%; 
     height: auto; /*300px Should be removed. Only for demonstration */
     align-content: center;
     align-items: center;
@@ -110,8 +100,8 @@
 }
 
 .column-3 img{
-    height: 180px;
-    width: 180px;
+    height: 75%;
+    width: 50%;
     align-content: center;
     border-radius: 50% 50%;
     border: #df203a solid 3px;
@@ -130,22 +120,21 @@
     margin-bottom: 2px;
 }
 
-.web-img img{
+.machine-img img{
     width: 50%;
     height: 50%;
     left: 10%;
 }
 
-.web-img {
-    left: 10%;
-	height: 40%;
-	width: 60%;
+.machine-img {
+    top: -30px;
+    left: 20%;
+	height: 50%;
+	width: 50%;
     position: relative;
-    margin: 20px;
 }
 
-.web-description, .horario{
-    padding-top: 10px;
+.machine-description, .horario{
     text-align: justify;
     font-size: 1.3rem;
     font-weight: 300;

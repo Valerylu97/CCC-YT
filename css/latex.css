@@ -14,7 +14,7 @@
     z-index: 9;
 }
 
-.web {
+.latex {
     width: 100%;
     align-content: center;
     text-align: center;
@@ -36,7 +36,7 @@
     height: max-content;
 }
 
-.title-web{
+.title-latex{
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: 300;
@@ -52,7 +52,7 @@
     text-align: center;
 }
     
-.title-web span{
+.title-latex span{
     color: #df203a;
     font-size: 3.5rem;
 }
@@ -81,16 +81,6 @@
     /*border-radius: 5%;*/
 }
 
-.column-4{
-    float: left;
-    width: 200%; 
-    height: auto; /*300px Should be removed. Only for demonstration */
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-}
-
 .prof-box{
     align-items: center;
     align-content: center;
@@ -101,7 +91,7 @@
 
 .column-3 {
     float: left;
-    width: 25%; 
+    width: 100%; 
     height: auto; /*300px Should be removed. Only for demonstration */
     align-content: center;
     align-items: center;
@@ -130,13 +120,13 @@
     margin-bottom: 2px;
 }
 
-.web-img img{
+.latex-img img{
     width: 50%;
     height: 50%;
     left: 10%;
 }
 
-.web-img {
+.latex-img {
     left: 10%;
 	height: 40%;
 	width: 60%;
@@ -144,7 +134,7 @@
     margin: 20px;
 }
 
-.web-description, .horario{
+.latex-description, .horario{
     padding-top: 10px;
     text-align: justify;
     font-size: 1.3rem;
