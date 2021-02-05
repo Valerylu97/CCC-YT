@@ -48,7 +48,7 @@ Cursos
   
 .title-curso{
   text-transform: uppercase;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 300;
   color: black;
   margin-bottom: 10px;
@@ -63,6 +63,7 @@ Cursos
   
 .title-curso span{
   color: #df203a;
+  font-size: 3.5rem;
 }
   
 .curso p{

@@ -487,17 +487,3 @@ input{
 .icon:hover{
   border: 2px solid #aaa;
 }
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  header, footer {
-    width: 80%;
-    padding: 0;
-  }
-}
-
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  header, footer {
-    width: 100%;
-  }
-}

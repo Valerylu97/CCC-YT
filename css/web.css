@@ -14,14 +14,12 @@
     z-index: 9;
 }
 
-.events {
+.web {
     width: 100%;
     align-content: center;
     text-align: center;
     background-color: #fff;
-    height: 100%;
-    max-height: 100%;
-    max-width: 100%;
+    height: 50%;
     margin-left: -8px;
     margin-top: -70px;
     padding-right: 10px;
@@ -30,7 +28,15 @@
     background-repeat: no-repeat;
 }
 
-.title-events{
+.container{
+    align-items: center;
+    align-content: center;
+    margin-top: 5px;
+    border-radius: 2%;
+    height: max-content;
+}
+
+.title-web{
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: 300;
@@ -46,19 +52,9 @@
     text-align: center;
 }
     
-.title-events span{
+.title-web span{
     color: #df203a;
     font-size: 3.5rem;
-}
-
-.description{
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-top: 10px;
-    padding-right: 50%;
-    padding: 0 100px;
-    margin-bottom: 15px;
-    text-align: center;
 }
 
 .sub-title{
@@ -73,54 +69,83 @@
 
 .sub-title span{
     color: #df203a;
-    font-size: 3rem;
-}
-
-.container{
-    align-items: center;
-    align-content: center;
-    margin-top: 5px-;
-    padding: 10px 30px; /*Todo lo de a dentro*/
-    border-radius: 2%;
-    height: 70%;
+    font-size: 3.5rem;
 }
 
 .column-2 {
     float: left;
-    width: 40%;
+    width: 42%;
     padding-top: -10%;
-    padding-right: 80px;
+    padding-left: 80px;
     height: auto; /*300px Should be removed. Only for demonstration */
     /*border-radius: 5%;*/
 }
 
-.workshop-img img{
-    width: 130%;
-    height: 125%;
+.column-4{
+    float: left;
+    width: 200%; 
+    height: auto; /*300px Should be removed. Only for demonstration */
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.prof-box{
+    align-items: center;
+    align-content: center;
+    padding: 30px 10px;
+    border-radius: 2%;
+    height:450px;
+}
+
+.column-3 {
+    float: left;
+    width: 25%; 
+    height: auto; /*300px Should be removed. Only for demonstration */
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.column-3 img{
+    height: 180px;
+    width: 180px;
+    align-content: center;
+    border-radius: 50% 50%;
+    border: #df203a solid 3px;
+}
+
+.column-3 p{
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+.column-2 h2{
+    color: #df203a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    left: .2rem;
+    margin-bottom: 2px;
+}
+
+.web-img img{
+    width: 50%;
+    height: 50%;
     left: 10%;
 }
 
-.workshop-img {
-    left: 15%;
-	height: 50%;
+.web-img {
+    left: 10%;
+	height: 40%;
 	width: 60%;
     position: relative;
-    margin: 30px;
+    margin: 20px;
 }
 
-.workshop-img::after {
-	content: '';
-	position: absolute;
-	left: -5%;
-	top: 2%;
-	height: 125%;
-	width: 129%;
-	border: 7px solid #df203a;
-	z-index: -1;
-}
-
-.event-description{
-    padding-top: 10%;
+.web-description, .horario{
+    padding-top: 10px;
     text-align: justify;
     font-size: 1.3rem;
     font-weight: 300;
