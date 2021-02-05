@@ -1,5 +1,8 @@
+/*--------------------------------------------------------------
+PEOPLE
+--------------------------------------------------------------*/
 #banner{
-    margin-top: -60px;
+    margin-top: -70px;
     margin-left: -409px
 }
 
@@ -9,23 +12,21 @@
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0;
+    bottom: 81%;
     background: rgba(255, 255, 255, 0.415);
     z-index: 9;
 }
 
-table{
-    margin: 0 auto;
-    border: none;
-}
-
-td{
+.people {
+    width: 100%;
+    align-content: center;
     text-align: center;
-    font-size: 1.3rem;
-    font-weight: 300;
-    border: none;
-    padding: 2%;
-    width: 20%;
+    background-color: #fff;
+    height: max-content;
+    max-width: 100%;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 hr{
@@ -37,13 +38,16 @@ hr{
     text-transform: uppercase;
     font-size: 3.5rem;
     font-weight: 300;
-    color: #000;
+    color: black;
     margin-bottom: 10px;
     letter-spacing: .2rem;
+    /*lienea de abajo*/
     border-bottom: #df203a solid 2px;
-    width: 620px;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
 }
   
 .title-dir span{
@@ -56,29 +60,12 @@ hr{
     font-weight: 300;
     color: #000;
     letter-spacing: .2rem;
+    text-align: left;
 }
 
 .sub-title span{
     color: #df203a;
     font-size: 3rem;
-}
-
-.img-box{
-    width: 100%;
-    height: 130px;
-    background-size: cover;
-}
-
-.img-box img{
-    width: 100%;
-    height: 100%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 /*-------------------------*/
@@ -87,47 +74,47 @@ hr{
 .adv-box{
     align-items: center;
     align-content: center;
-    margin-top: 5px;
-    padding: 10px 30px; /*Todo lo de a dentro*/
+    padding: 30px 10px;
+    padding-top: 10px;
     border-radius: 2%;
+    height: 600px;
 }
 
 .column-2 {
     float: left;
-    width: 50%;
-    padding: 20px; /*10px*/
-    padding-right: 80px;
+    width: 40%;
+    padding-top: -10%;
+    padding-left: 80px;
     height: auto; /*300px Should be removed. Only for demonstration */
     /*border-radius: 5%;*/
 }
 .adv-img img{
     width: 100%;
     height: 100%;
-    left: 40%;
+    left: 10%;
 }
 
 .adv-img {
-    left: 40%;
-	height: 50%;
+    left: 10%;
+	height: 60%;
 	width: 60%;
     position: relative;
     margin: 20px;
-    padding: 0;
-	border: 10px solid white; 
 }
 
 .adv-img::after {
 	content: '';
-	position: absolute;
+    position: absolute;
 	left: -10%;
 	top: 6%;
 	height: 100%;
 	width: 98%;
-	border: 7px solid #df203a;
+	border: 10px solid #df203a;
 	z-index: -1;
 }
 
 .adv-title{
+    padding-top: 8%;
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
@@ -140,15 +127,13 @@ hr{
     color: #df203a;
 }
 
-.adv-box p{
+.adv-description{
     text-align: justify;
     font-size: 1.3rem;
     font-weight: 300;
-    color: #000;
-    
+    color: #000;    
 }
 
-/*boton*/
 /*boton*/
 .btn {
     font-family: "Monserrat", sans-serif;
@@ -158,17 +143,12 @@ hr{
     padding: 8px 32px;
     border-radius: 50px;
     transition: 0.5s;
-    margin-left: 30%;
     color: #fff;
     background: #df203a;
     text-decoration: none;
     text-align: center;
     display: inline-block;
 }
-
-/*-------------------------*/
-/*end adviser section*/
-/*-------------------------*/
 
 /*-------------------------*/
 /*start directiva section*/
@@ -180,6 +160,7 @@ hr{
     margin: 10px; /*Todo lo de a fuera*/
     padding: 10px 30px; /*Todo lo de a dentro*/
     border-radius: 2%;
+    height: 1000px;
 }
 
 .presi{
@@ -200,37 +181,12 @@ hr{
     margin-bottom: 3px;
 }
 
-.presi img{
-    
+.presi img{  
     align-content: center;
     height: 180px;
     width: 180px;
     border-radius: 50%;
     border: #df203a solid 3px;
-}
-
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-    position: absolute;
-    bottom: 0;
-    /*background: rgb(0, 0, 0);*/
-    background: rgba(0, 0, 0, 0.1); /* Black see-through */
-    color: #f1f1f1;
-    width: auto;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 20%;
-    left: 10%;
-    border-radius: 0 0 5rem 5rem;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.presi:hover .overlay {
-    opacity: 1;
 }
 
 .presi p{
@@ -242,7 +198,7 @@ hr{
 
 .column-3 {
     float: left;
-    width: 33.33%;
+    width: 30%;
     padding: 10px 15px; 
     height: auto; /*300px Should be removed. Only for demonstration */
     align-content: center;
@@ -267,29 +223,6 @@ hr{
     border: #df203a solid 3px;
 }
 
-/* When you mouse over the container, fade in the overlay title */
-.column-3:hover .overlay {
-    opacity: 1;
-}
-
-.column-3 .overlay {
-    position: absolute;
-    bottom: 0;
-    /*background: rgb(0, 0, 0);*/
-    background: rgba(0, 0, 0, 0.1); /* Black see-through */
-    color: #f1f1f1;
-    width: auto;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 10%;
-    left: 32%;
-    border-radius: 0 0 5rem 5rem;
-}
-
 .column-3 p{
     font-size: 1.3rem;
     margin-top: 0;
@@ -297,3 +230,29 @@ hr{
 /*-----------------------*/
 /*End directiva section*/
 /*-----------------------*/
+
+/*-----------------------*/
+/*Start miembros section*/
+/*-----------------------*/
+.mem-box{
+    align-items: center;
+    align-content: center;
+    margin-top: 5px;
+    padding: 10px 30px; /*Todo lo de a dentro*/
+    border-radius: 2%;
+    height: auto;
+}
+
+table{
+    margin: 0 auto;
+    border: none;
+}
+
+td{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    border: none;
+    padding: 2%;
+    width: 20%;
+}

@@ -3,6 +3,17 @@
     margin-left: -409px
 }
 
+#banner::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.415);
+    z-index: 9;
+}
+
 .events {
     width: 100%;
     align-content: center;

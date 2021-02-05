@@ -47,13 +47,12 @@
             </div>
         </header>
 
-        <!-- Start adviser -->
-        <div class="text-body" id="adv">
-            <h2 class="title-dir">Comunidad <span>CCC-YT</span></h2>
-            
+        <div class="people">
+            <!-- Start adviser -->                
             <div class="adv-box">
+                <h2 class="title-dir">Comunidad <span>CCC-YT</span></h2>
                 <h3 class="sub-title"><span>C</span>onsejero</h3> 
-                
+                    
                 <div class="row">
                     <div class="column-2">
                         <nav class="adv-img">
@@ -63,28 +62,23 @@
 
                     <div class="column-2">
                         <h1 class="adv-title"><span>Phd. </span>Israel Pineda</h1>
-                        <p>
+                        <p class="adv-description">
                             Pertenece a la Escuela de Matemática y Ciencias Computacionales
-                            en la universidad Yachay Tech. Anteriormente, trabajaba en 
-                            gráficos por computadora y realidad virtual en el laboratorio 
+                            en la universidad Yachay Tech. Anteriormente, trabajaba en                                 gráficos por computadora y realidad virtual en el laboratorio 
                             de la universidad Nacional de Chonbuk en Corea del Sur. Su 
                             investigación se basó en el level set method y su uso en las
                             ciencias computacionales, gráficos por computadoras, simulación 
                             basada en la física, visión por computadoras y procesamiento de 
                             imagenes. Él ama las ciencias computacionales y la matemática.
                         </p>
-                        <br>
-                        <br>
                         <a href="https://www.israelpineda.com/about" class="btn" target="_blank">
                             Leer mas ...</a>
                     </div>
                 </div>
-                <hr>
-
             </div>
-        </div>
-        <!-- End adviser -->
+            <!-- End adviser -->
 
+            <hr>
 
             <!--start directiva-->
             <div class="dir-box" id="dir">
@@ -92,30 +86,26 @@
 
                 <div class="presi">
                     <h2>Presidente</h2>
-                    <img src="../img/directiva/Julio.jpeg" alt=""> 
-                    <h3 class="overlay">Información</h3>                   
+                    <img src="../img/directiva/Julio.jpeg" alt="">                  
                     <p>Julio Cajas</p>
                 </div>
 
                 <div class="row">
                     <div class="column-3">                        
                         <h2>Vicepresidenta</h2>  
-                        <img src="../img/directiva/Valeria.jpeg" alt="">
-                        <h3 class="overlay">Información</h3>                        
+                        <img src="../img/directiva/Valeria.jpeg" alt="">                     
                         <p>Valeria Lucero</p>                 
                     </div>
 
                     <div class="column-3">                        
                         <h2>Secretaria</h2> 
-                        <img src="../img/directiva/Samantha.jpeg" alt="">
-                        <h3 class="overlay">Información</h3>                        
+                        <img src="../img/directiva/Samantha.jpeg" alt="">                       
                         <p>Samantha Quintachala</p>                                                   
                     </div>
 
                     <div class="column-3">                        
                         <h2>Financiero</h2> 
                         <img src="../img/directiva/Sherald.jpeg" alt="">
-                        <h3 class="overlay">Información</h3>
                         <p>Sherald Noboa</p>                                                  
                     </div>
                 </div>
@@ -124,30 +114,28 @@
                     <div class="column-3">                        
                         <h2>Asuntos Internos</h2>  
                         <img src="../img/directiva/Erick.jpeg" alt="">
-                        <h3 class="overlay">Información</h3>
                         <p>Erick Tequiz</p>                  
                     </div>
 
                     <div class="column-3">                        
                         <h2>Comunicación</h2> 
                         <img src="../img/directiva/Carlos.jpeg" alt="">
-                        <h3 class="overlay">Información</h3>
                         <p>Carlos Arevalo</p>                                                   
                     </div>
 
                     <div class="column-3">                        
                         <h2>Talento Humano y Logística</h2>  
                         <img src="../img/directiva/Stadyn.jpeg" alt="">
-                        <h3 class="overlay">Información</h3>
                         <p>Stadyn Roman</p>                                                 
                     </div>
                 </div>
-                <hr>
             </div>
             <!-- end directiva-->
 
+            <hr>
+
             <!--start members-->
-            <div  class="adv-box" id="mem">
+            <div  class="mem-box" id="mem">
                 <h3 class="sub-title"><span>M</span>iembros</h3>
                     <?php
                         include 'connection.php';
@@ -177,6 +165,7 @@
             </div>
             <hr>
             <!--End members-->
+        </div>
 
         <footer id="footer">
             <h3>&copy; Copyright <span>CCC-YT</span>. All Rights Reserved</h3>
