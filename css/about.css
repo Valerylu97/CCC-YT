@@ -114,7 +114,7 @@ ABOUT
   
 .title-about h2{
     text-transform: uppercase;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 300;
     color: #111111;
     text-align: center;
@@ -129,6 +129,7 @@ ABOUT
   
 .title-about span{
     color: #df203a;
+    font-size: 3.5rem;
 }
   
 .col-md-4{
