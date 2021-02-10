@@ -175,6 +175,5 @@
 
         <!-- js files-->
         <script src="js/main.js"></script>
-        <script src="js/menu.js"></script>
     </body>
 </html>
